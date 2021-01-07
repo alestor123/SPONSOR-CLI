@@ -5,6 +5,7 @@ figlet = require('figlet'),
 axios = require('axios');
 (async () => {
 figlet('Thanks To The Members', (err, data) => {
+if(err) throw err
 console.log(chalk.yellow(data))
 })
 var data = await axios.get(`https://opencollective.com/${process.argv[2] || 'github'}/members/organizations.json`)
