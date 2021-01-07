@@ -1,0 +1,19 @@
+{
+  "name": "sponsor-cli",
+  "version": "1.0.0",
+  "description": "This is a simple code for thanking all the members of a open collective ",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/SPONSOR-CLI.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/SPONSOR-CLI/issues"
+  },
+  "homepage": "https://github.com/alestor123/SPONSOR-CLI#readme"
+}
