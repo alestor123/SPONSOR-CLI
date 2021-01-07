@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for thanking all the members of a open collective ",
   "main": "App.js",
+  "bin": {
+    "sponsor": "App.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
